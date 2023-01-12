@@ -1,6 +1,6 @@
 # mysql-server-error
 
-##Error -1)
+## Error -1)
 ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
 Resolve this error by using these command :
 
@@ -31,15 +31,16 @@ sudo service mysql status
 ```
 ![image](https://user-images.githubusercontent.com/116658648/211996944-d8a6dbb9-61f1-4392-81f5-4dcc4fbb8d24.png)
 
-##Error -2)
+## Error -2)
 ERROR 1698 (28000): Access denied for user 'root'@'localhost'
-```
+
 
 ``` mysql -u root -p ```
 
 ![image](https://user-images.githubusercontent.com/116658648/211997826-f64841c4-c6eb-4afe-a362-f5c8b1951be2.png)
 
 ``` sudo mysql ```
+
 ![image](https://user-images.githubusercontent.com/116658648/211998680-0fdfa34d-d3d1-42d9-8104-628a2b93bee8.png)
 
 Change Current-Root-Password to your root password 
